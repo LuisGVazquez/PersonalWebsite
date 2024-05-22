@@ -10,13 +10,13 @@ const scrollUp = document.querySelector("#scroll-up");
 const navLink = document.querySelector(".nav-link");
 
 //hamburger menu function
-burger.addEventListener("click",()=>{
+burger.addEventListener("click",() =>{
     ul.classList.toggle("show");
 });
 
 //close hamburger menu when link is clicked
 navLink.forEach((link) => 
-    link.addEventListener("click", ()=> {
+    link.addEventListener("click", () => {
         ul.classList.remove("show");
     })
 );
